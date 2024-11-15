@@ -1,3 +1,12 @@
+"""
+    1- Puedes crear un producto (ej: smart_tv),
+    2- creas un grupo de atributos (ej: tv)
+    3- le asignas atributos a ese grupo (ej: size, screen)
+    4- le asigas valores a esos atributos (ej: xl,hd)
+    5- le asignas ese grupo de atributos y los atributos con valores personalizados al producto (ej: tv (size=xxl,screen = 4k))
+    6- muestra los productos
+    """
+
 class Product:
     def __init__(self, product_id: int, name: str, price: float):
         self.id = product_id
